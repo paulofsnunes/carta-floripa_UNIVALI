@@ -1,0 +1,79 @@
+body {
+    background-image: url(/assets/wall.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 900px;
+    height:800px;
+    border:solid 1px;
+    border-radius:10px;
+    box-shadow: 1em 1em 1em #33766d;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: Caveat;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    background-color: white;
+}
+
+.local-data {
+    text-align: center;
+}
+
+.mail-lucas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.text-lucas {
+    width: 400px;
+
+}
+
+.link-mail {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(189, 32, 189)
+  }
+
+a {
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps {
+    margin: 0;
+}
+
+.goodbye-letter {
+    text-align: center;
+}
+
+p {
+    line-height: 1;
+   }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
